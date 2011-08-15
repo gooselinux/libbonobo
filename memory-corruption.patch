@@ -1,0 +1,19 @@
+diff -up libbonobo-2.24.2/bonobo-activation/bonobo-activation-mime.c.memory-corruption libbonobo-2.24.2/bonobo-activation/bonobo-activation-mime.c
+--- libbonobo-2.24.2/bonobo-activation/bonobo-activation-mime.c.memory-corruption	2009-10-06 21:24:22.763859762 -0400
++++ libbonobo-2.24.2/bonobo-activation/bonobo-activation-mime.c	2009-10-06 21:24:52.480866308 -0400
+@@ -292,7 +292,6 @@ gnome_vfs_mime_get_short_list_components
+ 	query = g_strconcat ("bonobo:supported_mime_types.has_one (['", mime_type, 
+ 			     "', '", supertype,
+ 			     "', '*'])", NULL);
+-	g_free (supertype);
+ 	
+         /* Prefer something that matches the exact type to something
+            that matches the supertype */
+@@ -313,6 +312,7 @@ gnome_vfs_mime_get_short_list_components
+ 		components_list = NULL;
+ 	}
+ 
++	g_free (supertype);
+ 	g_free (query);
+ 	g_free (sort[0]);
+ 	g_free (sort[1]);

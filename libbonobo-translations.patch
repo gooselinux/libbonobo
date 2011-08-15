@@ -1,0 +1,206 @@
+diff -urN a/po/ta.po b/po/ta.po
+--- a/po/ta.po	2010-05-06 15:27:03.646029591 +0530
++++ b/po/ta.po	2010-05-06 15:27:24.386029933 +0530
+@@ -5,61 +5,62 @@
+ # Dinesh Nadarajah <n_dinesh@yahoo.com>, 2001.
+ # Jayaradha N <jaya@pune.redhat.com>, 2004.
+ # Felix <ifelix@redhat.com>, 2006.
+-# I. Felix <ifelix@redhat.com>, 2008.
++# I. Felix <ifelix@redhat.com>, 2008, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: libbonobo.HEAD.ta\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2007-03-24 03:48+0000\n"
+-"PO-Revision-Date: 2008-09-18 22:31+0530\n"
+-"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+-"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
++"POT-Creation-Date: 2010-03-29 14:23+0530\n"
++"PO-Revision-Date: 2010-04-16 07:59+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
++"\n"
+ "\n"
+ "\n"
+ 
+ # server/activation-context-corba.c:513
+-#: ../activation-server/activation-context-corba.c:525
++#: ../activation-server/activation-context-corba.c:530
+ msgid "Couldn't find which child the server was listed in"
+ msgstr "எந்த சேய் சேவையகத்தில் பட்டியலிடப்பட்டது என கண்டுபிடிக்க முடியவில்லை"
+ 
+-#: ../activation-server/activation-context-corba.c:817
++#: ../activation-server/activation-context-corba.c:822
+ msgid "Not a valid Activation ID"
+ msgstr "தூண்டு செய்யும் எண் செல்லாது"
+ 
+ # server/activation-server-main.c:64
+-#: ../activation-server/activation-server-main.c:162
++#: ../activation-server/activation-server-main.c:176
+ msgid "Directory to read .server files from"
+ msgstr ".server கோப்புகளை வாசிக்க வேண்டிய அடைவு"
+ 
+ # server/activation-server-main.c:64
+-#: ../activation-server/activation-server-main.c:162
++#: ../activation-server/activation-server-main.c:176
+ msgid "DIRECTORY"
+ msgstr "அடைவு"
+ 
+ # server/activation-server-main.c:69
+-#: ../activation-server/activation-server-main.c:165
++#: ../activation-server/activation-server-main.c:179
+ msgid "Serve as an ActivationContext (default is as an ObjectDirectory only)"
+ msgstr "ActivationContext'ஆக சேவையிடு (கொடா நிலை ObjectDirectory மட்டும்)"
+ 
+ # server/activation-server-main.c:74
+-#: ../activation-server/activation-server-main.c:169
++#: ../activation-server/activation-server-main.c:183
+ msgid "File descriptor to write IOR to"
+ msgstr "IOR எழுத வேண்டிய கோப்பு விவரிப்பு"
+ 
+ # bonobo-activation/bonobo-activation-init.c:224
+ # server/activation-server-main.c:74
+-#: ../activation-server/activation-server-main.c:169
++#: ../activation-server/activation-server-main.c:183
+ #: ../bonobo-activation/bonobo-activation-init.c:352
+ #: ../bonobo-activation/bonobo-activation-init.c:397
+ msgid "FD"
+ msgstr "FD"
+ 
+-#: ../activation-server/activation-server-main.c:172
++#: ../activation-server/activation-server-main.c:186
+ msgid ""
+ "Register as the user's activation server without locking.  Warning: this "
+ "option can have dangerous side effects on the stability of the user's "
+@@ -70,20 +71,21 @@
+ "running session, and should only be used for debugging purposes"
+ 
+ # server/activation-server-main.c:79
+-#: ../activation-server/activation-server-main.c:180
++#: ../activation-server/activation-server-main.c:194
+ msgid "Query expression to evaluate"
+ msgstr "மதிப்பிட வேண்டிய வினா கோவை"
+ 
+ # server/activation-server-main.c:79
+-#: ../activation-server/activation-server-main.c:180
++#: ../activation-server/activation-server-main.c:194
+ msgid "EXPRESSION"
+ msgstr "EXPRESSION"
+ 
+-#: ../activation-server/activation-server-main.c:429
++#: ../activation-server/activation-server-main.c:547
+ #: ../utils/bonobo-activation-sysconf.c:305
+ #, c-format
+ msgid "Run '%s --help' to see a full list of available command line options.\n"
+-msgstr "'%s --help' ஐ இயக்கி இருக்கும் கட்டளை வடி விருப்பங்களின் முழுப்பட்டியலையும் காட்டு.\n"
++msgstr ""
++"'%s --help' ஐ இயக்கி இருக்கும் கட்டளை வடி விருப்பங்களின் முழுப்பட்டியலையும் காட்டு.\n"
+ 
+ #: ../activation-server/Bonobo_CosNaming_NamingContext.server.in.in.h:1
+ msgid "CORBA CosNaming service."
+@@ -112,7 +114,8 @@
+ msgid ""
+ "The Bonobo Activation configuration file was not read successfully. Please, "
+ "check it is valid in: %s"
+-msgstr "போனபோ தூண்டு செய்யும் அமைப்பு கோப்பு சரியாக வாசிக்க வில்லை. இதனில் சரிபார்க்கவும்: %s"
++msgstr ""
++"போனபோ தூண்டு செய்யும் அமைப்பு கோப்பு சரியாக வாசிக்க வில்லை. இதனில் சரிபார்க்கவும்: %s"
+ 
+ # server/object-directory-load.c:170
+ #: ../activation-server/object-directory-load.c:102
+@@ -143,12 +146,12 @@
+ msgid "Property '%s' has no value"
+ msgstr "'%s' பண்புக்கு மதிப்பு கிடையாது"
+ 
+-#: ../activation-server/object-directory-load.c:581
++#: ../activation-server/object-directory-load.c:583
+ #, c-format
+ msgid "Could not parse badly formed XML document %s"
+ msgstr "தவருதலாக உருவாக்கப்பட்ட %s XML ஆவணத்தை அலகிட முடியவில்லை"
+ 
+-#: ../activation-server/object-directory-load.c:627
++#: ../activation-server/object-directory-load.c:629
+ #, c-format
+ msgid "Trying dir %s"
+ msgstr "%s அடைவு முயற்சிக்கின்றது"
+@@ -166,11 +169,12 @@
+ 
+ # bonobo-activation/bonobo-activation-fork-server.c:82
+ #: ../bonobo-activation/bonobo-activation-fork-server.c:247
++#, c-format
+ msgid "EOF from child process\n"
+ msgstr "குழந்தை செயலிலிருந்து EOF\n"
+ 
+ # bonobo-activation/bonobo-activation-fork-server.c:181
+-#: ../bonobo-activation/bonobo-activation-fork-server.c:434
++#: ../bonobo-activation/bonobo-activation-fork-server.c:438
+ msgid "Couldn't spawn a new process"
+ msgstr "புதிய செயலை தொடங்க முடியவில்லை"
+ 
+@@ -235,17 +239,17 @@
+ 
+ #: ../bonobo/bonobo-application.c:352
+ msgid "Name"
+-msgstr "¦ÀÂ÷"
++msgstr "பெயர்"
+ 
+ #: ../bonobo/bonobo-application.c:352
+ msgid "Application unique name"
+ msgstr "செயல்பாடு தனிப்பட்ட பெயர்"
+ 
+-#: ../bonobo/bonobo-object.c:926
++#: ../bonobo/bonobo-object.c:929
+ msgid "POA"
+ msgstr "POA"
+ 
+-#: ../bonobo/bonobo-object.c:926
++#: ../bonobo/bonobo-object.c:929
+ msgid "Custom CORBA POA"
+ msgstr "தனிப்பயன் CORBA POA"
+ 
+@@ -410,7 +414,7 @@
+ 
+ #: ../monikers/Bonobo_Moniker_std.server.in.in.h:2
+ msgid "ORB IOR handling moniker"
+-msgstr "ORB IOR handling moniker"
++msgstr "ORB IOR monikerஐ கையாளுகிறது"
+ 
+ #: ../monikers/Bonobo_Moniker_std.server.in.in.h:3
+ msgid "Standard Moniker factory"
+@@ -467,6 +471,7 @@
+ 
+ # utils/bonobo-activation-sysconf.c:62
+ #: ../utils/bonobo-activation-sysconf.c:83
++#, c-format
+ msgid "Could not save configuration file.\n"
+ msgstr "அமை வடிவக கோப்பை சேமிக்க முடியவில்லை.\n"
+ 
+@@ -478,6 +483,7 @@
+ 
+ # utils/bonobo-activation-sysconf.c:66
+ #: ../utils/bonobo-activation-sysconf.c:87
++#, c-format
+ msgid "Successfully wrote configuration file.\n"
+ msgstr "அமை வடிவக கோப்பு நல்லபடியாக சேமிக்கப்பட்டது.\n"
+ 
+@@ -499,11 +505,13 @@
+ 
+ # utils/bonobo-activation-sysconf.c:138
+ #: ../utils/bonobo-activation-sysconf.c:166
++#, c-format
+ msgid "there is not a properly structured configuration file\n"
+ msgstr "சரியாக கட்டமைக்கப்பட்ட அமை வடிவ கோப்பு கிடையாது\n"
+ 
+ # utils/bonobo-activation-sysconf.c:201
+ #: ../utils/bonobo-activation-sysconf.c:237
++#, c-format
+ msgid "Bonobo-activation configuration file contains:\n"
+ msgstr "Bonobo-activation அமை வடிவக கோப்பினுள்:\n"
+ 
